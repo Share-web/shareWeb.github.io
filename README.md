@@ -8,14 +8,14 @@
 
 			// Feel free to change or delete any of the code you see in this editor!
 			var svg = d3.select("body").append("svg")
-				.attr("width", "100%")
-				.attr("height", "100%")
+				.attr("width", 480)
+				.attr("height", 800)
 
 			svg.append("circle")
 				.attr('fill', '#FFC0CB')
-				.attr('r', 460)
-				.attr('cx', 460)
-				.attr('cy', 460)
+				.attr('r', 230)
+				.attr('cx', 230)
+				.attr('cy', 230)
 				.on('mouseenter', circleMouseEnter)
 
 			function circleMouseEnter() {
